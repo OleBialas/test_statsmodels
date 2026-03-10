@@ -1,0 +1,14 @@
+[workspace]
+authors = ["obi <ole.bialas@posteo.de>"]
+channels = ["conda-forge"]
+name = "test_statsmodels"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+ipykernel = ">=7.2.0,<8"
+statsmodels = ">=0.14.6,<0.15"
+matplotlib = ">=3.10.8,<4"
